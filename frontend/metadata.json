@@ -1,0 +1,6 @@
+{
+  "name": "Hotel Booking Application",
+  "description": "An interactive, full-stack hotel booking platform featuring user authentication, room search, real-time booking, REST API logging, and simulated email notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

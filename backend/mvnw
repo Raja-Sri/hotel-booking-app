@@ -1,0 +1,70 @@
+#!/bin/sh
+
+# Lightweight Maven Wrapper for this project.
+# It downloads Maven into .mvn/wrapper/dists when Maven is not already available.
+
+set -e
+
+BASE_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+WRAPPER_DIR="$BASE_DIR/.mvn/wrapper"
+PROPERTIES_FILE="$WRAPPER_DIR/maven-wrapper.properties"
+
+if [ -z "$JAVA_HOME" ]; then
+  JAVACMD="java"
+  JARCMD="jar"
+else
+  JAVACMD="$JAVA_HOME/bin/java"
+  JARCMD="$JAVA_HOME/bin/jar"
+fi
+
+if ! command -v "$JAVACMD" >/dev/null 2>&1; then
+  echo "Error: Java is required to run Maven Wrapper." >&2
+  exit 1
+fi
+
+distributionUrl=$(grep '^distributionUrl=' "$PROPERTIES_FILE" | cut -d= -f2-)
+if [ -z "$distributionUrl" ]; then
+  echo "Error: distributionUrl is missing in $PROPERTIES_FILE" >&2
+  exit 1
+fi
+
+MAVEN_VERSION=$(printf '%s' "$distributionUrl" | sed -n 's|.*/apache-maven-\(.*\)-bin\.zip|\1|p')
+DIST_DIR="$WRAPPER_DIR/dists/apache-maven-$MAVEN_VERSION"
+MAVEN_HOME="$DIST_DIR/apache-maven-$MAVEN_VERSION"
+MAVEN_BIN="$MAVEN_HOME/bin/mvn"
+ZIP_FILE="$DIST_DIR/apache-maven-$MAVEN_VERSION-bin.zip"
+
+download_file() {
+  url="$1"
+  output="$2"
+
+  if command -v curl >/dev/null 2>&1; then
+    curl -fsSL "$url" -o "$output"
+  elif command -v wget >/dev/null 2>&1; then
+    wget -q "$url" -O "$output"
+  else
+    "$JAVACMD" "$BASE_DIR/.mvn/wrapper/MavenWrapperDownloader.java" "$url" "$output"
+  fi
+}
+
+extract_zip() {
+  zip_file="$1"
+  output_dir="$2"
+
+  if command -v unzip >/dev/null 2>&1; then
+    unzip -q "$zip_file" -d "$output_dir"
+  else
+    (cd "$output_dir" && "$JARCMD" xf "$zip_file")
+  fi
+}
+
+if [ ! -x "$MAVEN_BIN" ]; then
+  mkdir -p "$DIST_DIR"
+  echo "Downloading Maven $MAVEN_VERSION..."
+  download_file "$distributionUrl" "$ZIP_FILE"
+  echo "Extracting Maven $MAVEN_VERSION..."
+  extract_zip "$ZIP_FILE" "$DIST_DIR"
+  chmod +x "$MAVEN_BIN"
+fi
+
+exec "$MAVEN_BIN" "$@"

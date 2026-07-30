@@ -1,0 +1,47 @@
+[
+  {
+    "id": "usr-admin-default",
+    "email": "admin@stayvibe.com",
+    "name": "StayVibe Master Admin",
+    "createdAt": "2026-05-25T15:30:50.787Z",
+    "passwordHash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "role": "ROLE_ADMIN",
+    "username": "admin",
+    "phone": "+1 555-019-2834",
+    "gender": "male",
+    "dob": "1985-06-15",
+    "status": "active",
+    "address": {
+      "country": "United States",
+      "state": "New York",
+      "city": "New York",
+      "zipCode": "10019",
+      "fullAddress": "768 Fifth Ave, Admin Wing 4B"
+    }
+  },
+  {
+    "id": "usr-standard-default",
+    "email": "user@stayvibe.com",
+    "name": "Pujitha Pullamsetty",
+    "createdAt": "2026-05-25T15:30:50.789Z",
+    "passwordHash": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+    "role": "ROLE_USER",
+    "username": "pujithap",
+    "phone": "+1 650-253-0000",
+    "gender": "female",
+    "dob": "1998-11-22",
+    "status": "active",
+    "address": {
+      "country": "United States",
+      "state": "California",
+      "city": "Mountain View",
+      "zipCode": "94043",
+      "fullAddress": "1600 Amphitheatre Pkwy"
+    },
+    "preferences": {
+      "preferredRoomType": "Suite",
+      "favoriteDestinations": "Tokyo, Paris",
+      "travelPreferences": "WiFi, Skyline View, Luxury Lounge access"
+    }
+  }
+]

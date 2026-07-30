@@ -1,0 +1,283 @@
+[
+  {
+    "id": "h-1",
+    "name": "Park Hyatt Tokyo",
+    "city": "Tokyo",
+    "address": "3-7-1-2 Nishi-Shinjuku, Shinjuku-ku",
+    "stars": 5,
+    "rating": 9.4,
+    "reviewCount": 1240,
+    "imageUrl": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+    "description": "Towering above Shinjuku’s bustling streets, Park Hyatt Tokyo occupies the top 14 floors of a 55-story tower, offering breathtaking 360-degree views of Tokyo and Mount Fuji. Immortalized in cinematic history, this legendary oasis blends quiet Swiss precision with vibrant Japanese hospitality.",
+    "amenities": [
+      "Free WiFi",
+      "Luxury Spa",
+      "Indoor Pool",
+      "Skyline Bar",
+      "Fitness Center",
+      "Michelin Star Dining",
+      "24h Concierge"
+    ],
+    "rooms": [
+      {
+        "id": "r-1-1",
+        "name": "Deluxe King Room",
+        "type": "Deluxe",
+        "price": 450,
+        "capacity": 2,
+        "imageUrl": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80",
+        "amenities": [
+          "King Bed",
+          "City View",
+          "Deep Tub",
+          "Nespresso",
+          "Bose Sound System"
+        ],
+        "description": "Vast 55-sqm room featuring deep-green hued granite bathroom, walk-in closets, and rich wood craftsmanship.",
+        "count": 10
+      },
+      {
+        "id": "r-1-2",
+        "name": "Park Suite",
+        "type": "Suite",
+        "price": 950,
+        "capacity": 3,
+        "imageUrl": "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=800&q=80",
+        "amenities": [
+          "1 King Bed",
+          "Separate Living Room",
+          "Panoramic Mt. Fuji View",
+          "Premium Spa Toiletries",
+          "Complimentary Evening Cocktails"
+        ],
+        "description": "An elegant 100-sqm suite framing spectacular views of the Tokyo metropolis with custom-designed art.",
+        "count": 5
+      }
+    ],
+    "featured": true,
+    "popular": true,
+    "status": "available",
+    "pricePerNight": 450,
+    "policies": {
+      "checkInTime": "15:00",
+      "checkOutTime": "11:00",
+      "cancellation": "Free cancellation up to 24h before arrival"
+    },
+    "contactDetails": {
+      "phone": "+81 3-5322-1234",
+      "email": "tokyo.park@hyatt.com"
+    },
+    "state": "Tokyo Prefecture",
+    "country": "Japan",
+    "zipCode": "163-1055"
+  },
+  {
+    "id": "h-2",
+    "name": "Sotetsu Fresa Inn Tokyo-Toyocho",
+    "city": "Tokyo",
+    "address": "4-4-3 Toyo, Koto-ku",
+    "stars": 3,
+    "rating": 8.2,
+    "reviewCount": 520,
+    "imageUrl": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=800&q=80",
+    "description": "Offering exceptional functional comfort in Eastern Tokyo, this accommodation is located a mere 1-minute walk from Toyocho Subway Station. Perfectly streamlined for modern business and leisure travelers who seek clean efficiency and smooth metro connectivity.",
+    "amenities": [
+      "Free WiFi",
+      "Air Conditioning",
+      "Self Check-in Kiosks",
+      "Laundry Facilities",
+      "24h Front Desk",
+      "Convenience Store Nearby"
+    ],
+    "rooms": [
+      {
+        "id": "r-2-1",
+        "name": "Standard Single Room",
+        "type": "Single",
+        "price": 95,
+        "capacity": 1,
+        "imageUrl": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+        "amenities": [
+          "Single Bed",
+          "High-Speed LAN",
+          "Work Desk",
+          "Humidifier",
+          "Pyjamas Included"
+        ],
+        "description": "Compact, immaculately clean 12-sqm room with micro-spaced workspace and full private bath ensuite.",
+        "count": 25
+      },
+      {
+        "id": "r-2-2",
+        "name": "Double Room",
+        "type": "Double",
+        "price": 130,
+        "capacity": 2,
+        "imageUrl": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80",
+        "amenities": [
+          "Double Bed",
+          "Flat-screen TV",
+          "Mini Fridge",
+          "Air Purifier"
+        ],
+        "description": "Comfortable 16-sqm layout suited for couples or solo guests seeking double space.",
+        "count": 15
+      }
+    ],
+    "featured": false,
+    "popular": true,
+    "status": "available",
+    "pricePerNight": 95,
+    "policies": {
+      "checkInTime": "15:00",
+      "checkOutTime": "10:00",
+      "cancellation": "Non-refundable rate"
+    },
+    "contactDetails": {
+      "phone": "+81 3-3647-2031",
+      "email": "fresa_toyocho@sotetsu-group.jp"
+    },
+    "state": "Koto City",
+    "country": "Japan",
+    "zipCode": "135-0016"
+  },
+  {
+    "id": "h-3",
+    "name": "Le Bristol Paris",
+    "city": "Paris",
+    "address": "112 Rue du Faubourg Saint-Honoré, 75008",
+    "stars": 5,
+    "rating": 9.7,
+    "reviewCount": 980,
+    "imageUrl": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80",
+    "description": "A genuine masterpiece of French art de vivre, Le Bristol Paris is an exquisite palace hotel located on the prestigious Rue du Faubourg Saint-Honoré. Highlighted by its magnificent 1,200-sqm private garden and a yacht-style indoor pool overlooking Sacré-Cœur.",
+    "amenities": [
+      "Free WiFi",
+      "Michelin 3-Star Dining",
+      "French Palace Garden",
+      "Spa Le Bristol",
+      "Indoor Rooftop Pool",
+      "Pet Friendly",
+      "Valet Parking"
+    ],
+    "rooms": [
+      {
+        "id": "r-3-1",
+        "name": "Deluxe Double Room",
+        "type": "Double",
+        "price": 880,
+        "capacity": 2,
+        "imageUrl": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80",
+        "amenities": [
+          "Queen Bed",
+          "Chic Louis XV Decor",
+          "Italian Marble Bath",
+          "Garden View",
+          "Complimentary Macarons"
+        ],
+        "description": "Elegant 45-sqm room featuring period furnishings, original master paintings, and beautiful high ceilings.",
+        "count": 8
+      },
+      {
+        "id": "r-3-2",
+        "name": "Prestige Suite",
+        "type": "Suite",
+        "price": 1800,
+        "capacity": 3,
+        "imageUrl": "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=800&q=80",
+        "amenities": [
+          "King Bed",
+          "Double Vanity Bath",
+          "Separate Salon",
+          "Privilege Chauffeur Service",
+          "24/7 Personal Butler"
+        ],
+        "description": "Sprawling 80-sqm palace apartment containing customized silk wall draperies and historical antique fireplace.",
+        "count": 4
+      }
+    ],
+    "featured": true,
+    "popular": true,
+    "status": "available",
+    "pricePerNight": 880,
+    "policies": {
+      "checkInTime": "15:00",
+      "checkOutTime": "12:00",
+      "cancellation": "Free cancellation up to 48h prior"
+    },
+    "contactDetails": {
+      "phone": "+33 1 53 43 43 00",
+      "email": "reservation.lebristolparis@oetkercollection.com"
+    },
+    "state": "Île-de-France",
+    "country": "France",
+    "zipCode": "75008"
+  },
+  {
+    "id": "h-4",
+    "name": "Hotel de Neuve by Happyculture",
+    "city": "Paris",
+    "address": "14 Rue Neuve Saint-Pierre, 75004",
+    "stars": 3,
+    "rating": 8,
+    "reviewCount": 310,
+    "imageUrl": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=800&q=80",
+    "description": "Located in the romantic heart of Le Marais district, Hotel de Neuve is a cheerful, stylish boutique establishment. Just steps from Place de la Bastille and the River Seine, it offers high-spirited design and authentic Parisian neighborhood vibes.",
+    "amenities": [
+      "Free WiFi",
+      "Boutique Coffee Station",
+      "Lobby Lounge",
+      "Luggage Storage",
+      "Concierge Tour Services"
+    ],
+    "rooms": [
+      {
+        "id": "r-4-1",
+        "name": "Cozy Single Room",
+        "type": "Single",
+        "price": 120,
+        "capacity": 1,
+        "imageUrl": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+        "amenities": [
+          "Single bed",
+          "Retro Lighting",
+          "Bluetooth Speaker",
+          "Ensuite Shower"
+        ],
+        "description": "Charming 11-sqm urban cocoon styled with contemporary wallpapers and custom colorful accents.",
+        "count": 12
+      },
+      {
+        "id": "r-4-2",
+        "name": "Classic Double",
+        "type": "Double",
+        "price": 165,
+        "capacity": 2,
+        "imageUrl": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80",
+        "amenities": [
+          "Double Bed",
+          "Quiet Courtyard View",
+          "Espresso Machine"
+        ],
+        "description": "Brilliant 15-sqm room combining warm pastel palettes with modern bathroom conveniences.",
+        "count": 10
+      }
+    ],
+    "featured": false,
+    "popular": false,
+    "status": "available",
+    "pricePerNight": 120,
+    "policies": {
+      "checkInTime": "14:00",
+      "checkOutTime": "11:00",
+      "cancellation": "Free cancellation up to 24h prior"
+    },
+    "contactDetails": {
+      "phone": "+33 1 44 49 19 20",
+      "email": "de_neuve@happyculture.com"
+    },
+    "state": "Île-de-France",
+    "country": "France",
+    "zipCode": "75004"
+  }
+]
