@@ -1,5 +1,1094 @@
 [
   {
+    "id": "log-1785407453844-9ce265",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels/3?checkIn=2026-06-12&checkOut=2026-06-15 -> HTTP 200 in 298ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels/3?checkIn=2026-06-12&checkOut=2026-06-15\",\"statusCode\":200,\"durationMs\":298}",
+    "timestamp": "2026-07-30T10:30:53.844Z"
+  },
+  {
+    "id": "log-1785407453836-5ea827",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 291ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":291}",
+    "timestamp": "2026-07-30T10:30:53.836Z"
+  },
+  {
+    "id": "log-1785407453742-a227e1",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/bookings/my?userId=4 -> HTTP 200 in 200ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=4\",\"statusCode\":200,\"durationMs\":200}",
+    "timestamp": "2026-07-30T10:30:53.742Z"
+  },
+  {
+    "id": "log-1785407453534-3f7c8f",
+    "level": "info",
+    "category": "api",
+    "userEmail": "user@stayvibe.com",
+    "message": "API Response: POST /api/bookings/7/cancel -> HTTP 200 in 81ms",
+    "details": "{\"method\":\"POST\",\"url\":\"/api/bookings/7/cancel\",\"statusCode\":200,\"durationMs\":81}",
+    "timestamp": "2026-07-30T10:30:53.534Z"
+  },
+  {
+    "id": "log-1785407393875-c7b19f",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels/3?checkIn=2026-06-12&checkOut=2026-06-15 -> HTTP 200 in 148ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels/3?checkIn=2026-06-12&checkOut=2026-06-15\",\"statusCode\":200,\"durationMs\":148}",
+    "timestamp": "2026-07-30T10:29:53.875Z"
+  },
+  {
+    "id": "log-1785407393803-2c4f72",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 125ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":125}",
+    "timestamp": "2026-07-30T10:29:53.803Z"
+  },
+  {
+    "id": "log-1785407393714-0a4b10",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/bookings/my?userId=4 -> HTTP 200 in 43ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=4\",\"statusCode\":200,\"durationMs\":43}",
+    "timestamp": "2026-07-30T10:29:53.714Z"
+  },
+  {
+    "id": "log-1785407393664-7361ea",
+    "level": "info",
+    "category": "api",
+    "userEmail": "user@stayvibe.com",
+    "message": "API Response: POST /api/bookings -> HTTP 201 in 295ms",
+    "details": "{\"method\":\"POST\",\"url\":\"/api/bookings\",\"statusCode\":201,\"durationMs\":295}",
+    "timestamp": "2026-07-30T10:29:53.664Z"
+  },
+  {
+    "id": "log-1785407337042-0169d4",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels/3?checkIn=2026-06-12&checkOut=2026-06-15 -> HTTP 304 in 48ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels/3?checkIn=2026-06-12&checkOut=2026-06-15\",\"statusCode\":304,\"durationMs\":48}",
+    "timestamp": "2026-07-30T10:28:57.043Z"
+  },
+  {
+    "id": "log-1785407336928-438dc7",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels/3?checkIn=2026-06-12&checkOut=2026-06-15 -> HTTP 200 in 33ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels/3?checkIn=2026-06-12&checkOut=2026-06-15\",\"statusCode\":200,\"durationMs\":33}",
+    "timestamp": "2026-07-30T10:28:56.928Z"
+  },
+  {
+    "id": "log-1785407329860-9b74c5",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/bookings/my?userId=4 -> HTTP 200 in 90ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=4\",\"statusCode\":200,\"durationMs\":90}",
+    "timestamp": "2026-07-30T10:28:49.860Z"
+  },
+  {
+    "id": "log-1785407329676-479674",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: POST /api/auth/customer/login -> HTTP 200 in 187ms",
+    "details": "{\"method\":\"POST\",\"url\":\"/api/auth/customer/login\",\"statusCode\":200,\"durationMs\":187}",
+    "timestamp": "2026-07-30T10:28:49.678Z"
+  },
+  {
+    "id": "log-1785407223677-4cb540",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 281ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":281}",
+    "timestamp": "2026-07-30T10:27:03.677Z"
+  },
+  {
+    "id": "log-1785407223668-ed73d0",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 272ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":272}",
+    "timestamp": "2026-07-30T10:27:03.668Z"
+  },
+  {
+    "id": "log-1785407223658-8d500c",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 260ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":260}",
+    "timestamp": "2026-07-30T10:27:03.658Z"
+  },
+  {
+    "id": "log-1785407223599-1db02d",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/users -> HTTP 304 in 200ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":200}",
+    "timestamp": "2026-07-30T10:27:03.599Z"
+  },
+  {
+    "id": "log-1785407220104-c47d3d",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 108ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":108}",
+    "timestamp": "2026-07-30T10:27:00.104Z"
+  },
+  {
+    "id": "log-1785407220023-70d2f8",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 81ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":81}",
+    "timestamp": "2026-07-30T10:27:00.023Z"
+  },
+  {
+    "id": "log-1785407220011-e1cff0",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 71ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":71}",
+    "timestamp": "2026-07-30T10:27:00.012Z"
+  },
+  {
+    "id": "log-1785407219973-025853",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 194ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":194}",
+    "timestamp": "2026-07-30T10:26:59.973Z"
+  },
+  {
+    "id": "log-1785407219933-6cfc46",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 159ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":159}",
+    "timestamp": "2026-07-30T10:26:59.933Z"
+  },
+  {
+    "id": "log-1785407219923-e5fdba",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 142ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":142}",
+    "timestamp": "2026-07-30T10:26:59.923Z"
+  },
+  {
+    "id": "log-1785407219912-ffb52f",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/users -> HTTP 304 in 38ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":38}",
+    "timestamp": "2026-07-30T10:26:59.912Z"
+  },
+  {
+    "id": "log-1785407219829-b5d649",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/users -> HTTP 304 in 51ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":51}",
+    "timestamp": "2026-07-30T10:26:59.829Z"
+  },
+  {
+    "id": "log-1785407216723-5cb946",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 61ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":61}",
+    "timestamp": "2026-07-30T10:26:56.724Z"
+  },
+  {
+    "id": "log-1785407216669-e1d649",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/bookings/my?userId=3 -> HTTP 304 in 30ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=3\",\"statusCode\":304,\"durationMs\":30}",
+    "timestamp": "2026-07-30T10:26:56.670Z"
+  },
+  {
+    "id": "log-1785407216653-89a913",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 135ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":135}",
+    "timestamp": "2026-07-30T10:26:56.653Z"
+  },
+  {
+    "id": "log-1785407216616-33a35b",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/bookings/my?userId=3 -> HTTP 304 in 97ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=3\",\"statusCode\":304,\"durationMs\":97}",
+    "timestamp": "2026-07-30T10:26:56.617Z"
+  },
+  {
+    "id": "log-1785407216212-fc8db1",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/utils/adminStats.ts -> HTTP 304 in 0ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/utils/adminStats.ts\",\"statusCode\":304,\"durationMs\":0}",
+    "timestamp": "2026-07-30T10:26:56.212Z"
+  },
+  {
+    "id": "log-1785407216189-b16425",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/components/AdminPortal.tsx -> HTTP 304 in 3ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/components/AdminPortal.tsx\",\"statusCode\":304,\"durationMs\":3}",
+    "timestamp": "2026-07-30T10:26:56.189Z"
+  },
+  {
+    "id": "log-1785407216179-3648ec",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/utils/phoneValidation.ts -> HTTP 304 in 0ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/utils/phoneValidation.ts\",\"statusCode\":304,\"durationMs\":0}",
+    "timestamp": "2026-07-30T10:26:56.179Z"
+  },
+  {
+    "id": "log-1785407216174-c0bac7",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/api/mappers.ts -> HTTP 304 in 0ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/api/mappers.ts\",\"statusCode\":304,\"durationMs\":0}",
+    "timestamp": "2026-07-30T10:26:56.174Z"
+  },
+  {
+    "id": "log-1785407216162-934dac",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/api/client.ts -> HTTP 304 in 1ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/api/client.ts\",\"statusCode\":304,\"durationMs\":1}",
+    "timestamp": "2026-07-30T10:26:56.162Z"
+  },
+  {
+    "id": "log-1785407216147-550842",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/components/HotelDetailView.tsx -> HTTP 304 in 0ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/components/HotelDetailView.tsx\",\"statusCode\":304,\"durationMs\":0}",
+    "timestamp": "2026-07-30T10:26:56.147Z"
+  },
+  {
+    "id": "log-1785407216140-1113a9",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/components/Header.tsx -> HTTP 304 in 0ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/components/Header.tsx\",\"statusCode\":304,\"durationMs\":0}",
+    "timestamp": "2026-07-30T10:26:56.140Z"
+  },
+  {
+    "id": "log-1785407216112-1d7190",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/App.tsx -> HTTP 304 in 1ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/App.tsx\",\"statusCode\":304,\"durationMs\":1}",
+    "timestamp": "2026-07-30T10:26:56.112Z"
+  },
+  {
+    "id": "log-1785407216105-9591ce",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /node_modules/vite/dist/client/env.mjs -> HTTP 304 in 0ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/node_modules/vite/dist/client/env.mjs\",\"statusCode\":304,\"durationMs\":0}",
+    "timestamp": "2026-07-30T10:26:56.105Z"
+  },
+  {
+    "id": "log-1785407216099-938732",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/index.css -> HTTP 304 in 0ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/index.css\",\"statusCode\":304,\"durationMs\":0}",
+    "timestamp": "2026-07-30T10:26:56.099Z"
+  },
+  {
+    "id": "log-1785407216090-f3bdbf",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /@react-refresh -> HTTP 304 in 1ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/@react-refresh\",\"statusCode\":304,\"durationMs\":1}",
+    "timestamp": "2026-07-30T10:26:56.091Z"
+  },
+  {
+    "id": "log-1785407216077-a07555",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/main.tsx -> HTTP 304 in 1ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/main.tsx\",\"statusCode\":304,\"durationMs\":1}",
+    "timestamp": "2026-07-30T10:26:56.079Z"
+  },
+  {
+    "id": "log-1785407216064-b19a5f",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /@vite/client -> HTTP 304 in 1ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/@vite/client\",\"statusCode\":304,\"durationMs\":1}",
+    "timestamp": "2026-07-30T10:26:56.064Z"
+  },
+  {
+    "id": "log-1785407216029-7761ac",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /index.html -> HTTP 304 in 57ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/index.html\",\"statusCode\":304,\"durationMs\":57}",
+    "timestamp": "2026-07-30T10:26:56.029Z"
+  },
+  {
+    "id": "log-1785407210699-9f5907",
+    "level": "warn",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: PUT /api/admin/hotels/5 -> HTTP 400 in 150ms",
+    "details": "{\"method\":\"PUT\",\"url\":\"/api/admin/hotels/5\",\"statusCode\":400,\"durationMs\":150}",
+    "timestamp": "2026-07-30T10:26:50.699Z"
+  },
+  {
+    "id": "log-1785407204383-6df048",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 169ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":169}",
+    "timestamp": "2026-07-30T10:26:44.383Z"
+  },
+  {
+    "id": "log-1785407204358-a9798e",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 137ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":137}",
+    "timestamp": "2026-07-30T10:26:44.358Z"
+  },
+  {
+    "id": "log-1785407204342-a95f1e",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 106ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":106}",
+    "timestamp": "2026-07-30T10:26:44.342Z"
+  },
+  {
+    "id": "log-1785407204272-ff999c",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/users -> HTTP 304 in 47ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":47}",
+    "timestamp": "2026-07-30T10:26:44.272Z"
+  },
+  {
+    "id": "log-1785407203273-2e382f",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/users -> HTTP 304 in 34ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":34}",
+    "timestamp": "2026-07-30T10:26:43.273Z"
+  },
+  {
+    "id": "log-1785407203257-46681b",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 73ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":73}",
+    "timestamp": "2026-07-30T10:26:43.257Z"
+  },
+  {
+    "id": "log-1785407203231-a3fb92",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 145ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":145}",
+    "timestamp": "2026-07-30T10:26:43.232Z"
+  },
+  {
+    "id": "log-1785407203177-91f814",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 91ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":91}",
+    "timestamp": "2026-07-30T10:26:43.178Z"
+  },
+  {
+    "id": "log-1785407196994-b5ca42",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 189ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":189}",
+    "timestamp": "2026-07-30T10:26:36.994Z"
+  },
+  {
+    "id": "log-1785407196951-9d4511",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 148ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":148}",
+    "timestamp": "2026-07-30T10:26:36.951Z"
+  },
+  {
+    "id": "log-1785407196930-f70c56",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 125ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":125}",
+    "timestamp": "2026-07-30T10:26:36.930Z"
+  },
+  {
+    "id": "log-1785407196872-91e36a",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/users -> HTTP 304 in 66ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":66}",
+    "timestamp": "2026-07-30T10:26:36.872Z"
+  },
+  {
+    "id": "log-1785407195825-e94301",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 294ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":294}",
+    "timestamp": "2026-07-30T10:26:35.826Z"
+  },
+  {
+    "id": "log-1785407195760-0c796a",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 228ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":228}",
+    "timestamp": "2026-07-30T10:26:35.760Z"
+  },
+  {
+    "id": "log-1785407195749-b0fd1f",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 218ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":218}",
+    "timestamp": "2026-07-30T10:26:35.750Z"
+  },
+  {
+    "id": "log-1785407195659-64845e",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/users -> HTTP 304 in 106ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":106}",
+    "timestamp": "2026-07-30T10:26:35.660Z"
+  },
+  {
+    "id": "log-1785407193255-081329",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 322ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":322}",
+    "timestamp": "2026-07-30T10:26:33.255Z"
+  },
+  {
+    "id": "log-1785407193185-eaab91",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/users -> HTTP 304 in 71ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":71}",
+    "timestamp": "2026-07-30T10:26:33.185Z"
+  },
+  {
+    "id": "log-1785407193106-de2359",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 173ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":173}",
+    "timestamp": "2026-07-30T10:26:33.106Z"
+  },
+  {
+    "id": "log-1785407193097-5b02ff",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 158ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":158}",
+    "timestamp": "2026-07-30T10:26:33.097Z"
+  },
+  {
+    "id": "log-1785407186386-523674",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 167ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":167}",
+    "timestamp": "2026-07-30T10:26:26.386Z"
+  },
+  {
+    "id": "log-1785407186355-825c63",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 140ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":140}",
+    "timestamp": "2026-07-30T10:26:26.355Z"
+  },
+  {
+    "id": "log-1785407186283-ed67bd",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 59ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":59}",
+    "timestamp": "2026-07-30T10:26:26.283Z"
+  },
+  {
+    "id": "log-1785407186258-86f205",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/users -> HTTP 304 in 32ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":32}",
+    "timestamp": "2026-07-30T10:26:26.258Z"
+  },
+  {
+    "id": "log-1785407184583-f7e903",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 201ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":201}",
+    "timestamp": "2026-07-30T10:26:24.583Z"
+  },
+  {
+    "id": "log-1785407184549-51fce5",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 164ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":164}",
+    "timestamp": "2026-07-30T10:26:24.549Z"
+  },
+  {
+    "id": "log-1785407184538-c4dcaf",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 159ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":159}",
+    "timestamp": "2026-07-30T10:26:24.538Z"
+  },
+  {
+    "id": "log-1785407184433-e7d7c2",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/users -> HTTP 304 in 49ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":49}",
+    "timestamp": "2026-07-30T10:26:24.433Z"
+  },
+  {
+    "id": "log-1785407183462-821d53",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 126ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":126}",
+    "timestamp": "2026-07-30T10:26:23.462Z"
+  },
+  {
+    "id": "log-1785407183455-f888a2",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/users -> HTTP 304 in 43ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":43}",
+    "timestamp": "2026-07-30T10:26:23.455Z"
+  },
+  {
+    "id": "log-1785407183390-838973",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 198ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":198}",
+    "timestamp": "2026-07-30T10:26:23.390Z"
+  },
+  {
+    "id": "log-1785407183325-5b2998",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 138ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":138}",
+    "timestamp": "2026-07-30T10:26:23.325Z"
+  },
+  {
+    "id": "log-1785407158251-823943",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 120ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":120}",
+    "timestamp": "2026-07-30T10:25:58.251Z"
+  },
+  {
+    "id": "log-1785407158191-fd4b16",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 277ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":277}",
+    "timestamp": "2026-07-30T10:25:58.191Z"
+  },
+  {
+    "id": "log-1785407158112-9e9200",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/stats -> HTTP 200 in 609ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":200,\"durationMs\":609}",
+    "timestamp": "2026-07-30T10:25:58.112Z"
+  },
+  {
+    "id": "log-1785407158030-979e39",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 155ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":155}",
+    "timestamp": "2026-07-30T10:25:58.030Z"
+  },
+  {
+    "id": "log-1785407157979-90fb3e",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/users -> HTTP 304 in 58ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":58}",
+    "timestamp": "2026-07-30T10:25:57.979Z"
+  },
+  {
+    "id": "log-1785407157888-014150",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/users -> HTTP 304 in 52ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":52}",
+    "timestamp": "2026-07-30T10:25:57.888Z"
+  },
+  {
+    "id": "log-1785407157865-fd1eb6",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/hotels -> HTTP 200 in 434ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":200,\"durationMs\":434}",
+    "timestamp": "2026-07-30T10:25:57.865Z"
+  },
+  {
+    "id": "log-1785407157821-f86d3b",
+    "level": "info",
+    "category": "api",
+    "userEmail": "admin@stayvibe.com",
+    "message": "API Response: GET /api/admin/bookings -> HTTP 200 in 381ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":200,\"durationMs\":381}",
+    "timestamp": "2026-07-30T10:25:57.822Z"
+  },
+  {
+    "id": "log-1785407157497-ee35b7",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/bookings/my?userId=3 -> HTTP 200 in 87ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=3\",\"statusCode\":200,\"durationMs\":87}",
+    "timestamp": "2026-07-30T10:25:57.497Z"
+  },
+  {
+    "id": "log-1785407157310-59a04d",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: POST /api/auth/admin/login -> HTTP 200 in 877ms",
+    "details": "{\"method\":\"POST\",\"url\":\"/api/auth/admin/login\",\"statusCode\":200,\"durationMs\":877}",
+    "timestamp": "2026-07-30T10:25:57.310Z"
+  },
+  {
+    "id": "log-1785407098391-4b7524",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 60ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":60}",
+    "timestamp": "2026-07-30T10:24:58.391Z"
+  },
+  {
+    "id": "log-1785407095726-9e9e90",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels?city=Tokyo&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 34ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=Tokyo&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":34}",
+    "timestamp": "2026-07-30T10:24:55.726Z"
+  },
+  {
+    "id": "log-1785407092583-1f387d",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels?city=Paris&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 200 in 66ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=Paris&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":200,\"durationMs\":66}",
+    "timestamp": "2026-07-30T10:24:52.583Z"
+  },
+  {
+    "id": "log-1785407090408-c802b9",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels?city=New+York&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 21ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=New+York&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":21}",
+    "timestamp": "2026-07-30T10:24:50.408Z"
+  },
+  {
+    "id": "log-1785407087823-3d275c",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels?city=London&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 200 in 18ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=London&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":200,\"durationMs\":18}",
+    "timestamp": "2026-07-30T10:24:47.823Z"
+  },
+  {
+    "id": "log-1785407083823-2b98a5",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 63ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":63}",
+    "timestamp": "2026-07-30T10:24:43.823Z"
+  },
+  {
+    "id": "log-1785407076866-692cc9",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels?city=New+York&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 200 in 21ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=New+York&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":200,\"durationMs\":21}",
+    "timestamp": "2026-07-30T10:24:36.866Z"
+  },
+  {
+    "id": "log-1785407075474-27af7c",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 57ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":57}",
+    "timestamp": "2026-07-30T10:24:35.474Z"
+  },
+  {
+    "id": "log-1785407073708-ac68ff",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels?city=Tokyo&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 200 in 226ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=Tokyo&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":200,\"durationMs\":226}",
+    "timestamp": "2026-07-30T10:24:33.708Z"
+  },
+  {
+    "id": "log-1785407064179-97560b",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels/6?checkIn=2026-06-12&checkOut=2026-06-15 -> HTTP 304 in 50ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels/6?checkIn=2026-06-12&checkOut=2026-06-15\",\"statusCode\":304,\"durationMs\":50}",
+    "timestamp": "2026-07-30T10:24:24.179Z"
+  },
+  {
+    "id": "log-1785407064018-8fd80d",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels/6?checkIn=2026-06-12&checkOut=2026-06-15 -> HTTP 200 in 541ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels/6?checkIn=2026-06-12&checkOut=2026-06-15\",\"statusCode\":200,\"durationMs\":541}",
+    "timestamp": "2026-07-30T10:24:24.025Z"
+  },
+  {
+    "id": "log-1785406951141-68f60f",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/bookings/my?userId=10 -> HTTP 304 in 39ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=10\",\"statusCode\":304,\"durationMs\":39}",
+    "timestamp": "2026-07-30T10:22:31.141Z"
+  },
+  {
+    "id": "log-1785406951097-49df48",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/bookings/my?userId=10 -> HTTP 200 in 3310ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=10\",\"statusCode\":200,\"durationMs\":3310}",
+    "timestamp": "2026-07-30T10:22:31.097Z"
+  },
+  {
+    "id": "log-1785406950485-2aad54",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 58ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":58}",
+    "timestamp": "2026-07-30T10:22:30.486Z"
+  },
+  {
+    "id": "log-1785406950418-388c30",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 200 in 2667ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":200,\"durationMs\":2667}",
+    "timestamp": "2026-07-30T10:22:30.418Z"
+  },
+  {
+    "id": "log-1785406948108-3c65df",
+    "level": "warn",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /favicon.ico -> HTTP 404 in 5ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/favicon.ico\",\"statusCode\":404,\"durationMs\":5}",
+    "timestamp": "2026-07-30T10:22:28.108Z"
+  },
+  {
+    "id": "log-1785406946785-28fdef",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/utils/adminStats.ts -> HTTP 304 in 1ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/utils/adminStats.ts\",\"statusCode\":304,\"durationMs\":1}",
+    "timestamp": "2026-07-30T10:22:26.785Z"
+  },
+  {
+    "id": "log-1785406946773-d492ae",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/api/mappers.ts -> HTTP 304 in 1ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/api/mappers.ts\",\"statusCode\":304,\"durationMs\":1}",
+    "timestamp": "2026-07-30T10:22:26.773Z"
+  },
+  {
+    "id": "log-1785406946766-be904d",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/utils/phoneValidation.ts -> HTTP 304 in 1ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/utils/phoneValidation.ts\",\"statusCode\":304,\"durationMs\":1}",
+    "timestamp": "2026-07-30T10:22:26.766Z"
+  },
+  {
+    "id": "log-1785406946758-ce9555",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/api/client.ts -> HTTP 304 in 1ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/api/client.ts\",\"statusCode\":304,\"durationMs\":1}",
+    "timestamp": "2026-07-30T10:22:26.758Z"
+  },
+  {
+    "id": "log-1785406946737-2c14c9",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/components/HotelDetailView.tsx -> HTTP 200 in 3ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/components/HotelDetailView.tsx\",\"statusCode\":200,\"durationMs\":3}",
+    "timestamp": "2026-07-30T10:22:26.737Z"
+  },
+  {
+    "id": "log-1785406946726-fa2ca4",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/components/AdminPortal.tsx -> HTTP 200 in 13ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/components/AdminPortal.tsx\",\"statusCode\":200,\"durationMs\":13}",
+    "timestamp": "2026-07-30T10:22:26.726Z"
+  },
+  {
+    "id": "log-1785406946707-98e2bb",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/components/Header.tsx -> HTTP 200 in 2ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/components/Header.tsx\",\"statusCode\":200,\"durationMs\":2}",
+    "timestamp": "2026-07-30T10:22:26.707Z"
+  },
+  {
+    "id": "log-1785406946684-c93df7",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /node_modules/.vite/deps/chunk-GNFEJ4Z4.js?v=88ec16ad -> HTTP 200 in 84ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/node_modules/.vite/deps/chunk-GNFEJ4Z4.js?v=88ec16ad\",\"statusCode\":200,\"durationMs\":84}",
+    "timestamp": "2026-07-30T10:22:26.684Z"
+  },
+  {
+    "id": "log-1785406946662-a4bba2",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /node_modules/.vite/deps/chunk-3HWABCXV.js?v=88ec16ad -> HTTP 200 in 66ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/node_modules/.vite/deps/chunk-3HWABCXV.js?v=88ec16ad\",\"statusCode\":200,\"durationMs\":66}",
+    "timestamp": "2026-07-30T10:22:26.663Z"
+  },
+  {
+    "id": "log-1785406946633-18e284",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /node_modules/.vite/deps/lucide-react.js?v=48e6db49 -> HTTP 200 in 18ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/node_modules/.vite/deps/lucide-react.js?v=48e6db49\",\"statusCode\":200,\"durationMs\":18}",
+    "timestamp": "2026-07-30T10:22:26.633Z"
+  },
+  {
+    "id": "log-1785406946586-251a17",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /node_modules/vite/dist/client/env.mjs -> HTTP 304 in 1ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/node_modules/vite/dist/client/env.mjs\",\"statusCode\":304,\"durationMs\":1}",
+    "timestamp": "2026-07-30T10:22:26.587Z"
+  },
+  {
+    "id": "log-1785406946419-c0cac5",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/index.css -> HTTP 200 in 3ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/index.css\",\"statusCode\":200,\"durationMs\":3}",
+    "timestamp": "2026-07-30T10:22:26.419Z"
+  },
+  {
+    "id": "log-1785406946405-42dbb9",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/App.tsx -> HTTP 200 in 19ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/App.tsx\",\"statusCode\":200,\"durationMs\":19}",
+    "timestamp": "2026-07-30T10:22:26.405Z"
+  },
+  {
+    "id": "log-1785406946374-1e7403",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /node_modules/.vite/deps/react-dom_client.js?v=22e2f91d -> HTTP 200 in 1933ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/node_modules/.vite/deps/react-dom_client.js?v=22e2f91d\",\"statusCode\":200,\"durationMs\":1933}",
+    "timestamp": "2026-07-30T10:22:26.374Z"
+  },
+  {
+    "id": "log-1785406946308-80886e",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /node_modules/.vite/deps/react.js?v=800bff26 -> HTTP 200 in 1874ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/node_modules/.vite/deps/react.js?v=800bff26\",\"statusCode\":200,\"durationMs\":1874}",
+    "timestamp": "2026-07-30T10:22:26.308Z"
+  },
+  {
+    "id": "log-1785406946298-ad2436",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /node_modules/.vite/deps/react_jsx-dev-runtime.js?v=800bff26 -> HTTP 200 in 1864ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=800bff26\",\"statusCode\":200,\"durationMs\":1864}",
+    "timestamp": "2026-07-30T10:22:26.299Z"
+  },
+  {
+    "id": "log-1785406943172-2688aa",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /src/main.tsx -> HTTP 200 in 396ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/src/main.tsx\",\"statusCode\":200,\"durationMs\":396}",
+    "timestamp": "2026-07-30T10:22:23.172Z"
+  },
+  {
+    "id": "log-1785406943133-b03607",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /@react-refresh -> HTTP 304 in 7ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/@react-refresh\",\"statusCode\":304,\"durationMs\":7}",
+    "timestamp": "2026-07-30T10:22:23.133Z"
+  },
+  {
+    "id": "log-1785406943117-1d557f",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /@vite/client -> HTTP 200 in 347ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/@vite/client\",\"statusCode\":200,\"durationMs\":347}",
+    "timestamp": "2026-07-30T10:22:23.117Z"
+  },
+  {
+    "id": "log-1785406915715-ac95ef",
+    "level": "info",
+    "category": "api",
+    "userEmail": null,
+    "message": "API Response: GET /index.html -> HTTP 200 in 649ms",
+    "details": "{\"method\":\"GET\",\"url\":\"/index.html\",\"statusCode\":200,\"durationMs\":649}",
+    "timestamp": "2026-07-30T10:21:55.715Z"
+  },
+  {
     "id": "log-1781107941495-cadb60",
     "level": "info",
     "category": "api",
@@ -3409,1092 +4498,5 @@
     "message": "API Response: POST /api/auth/login -> HTTP 401 in 192ms",
     "details": "{\"method\":\"POST\",\"url\":\"/api/auth/login\",\"statusCode\":401,\"durationMs\":192}",
     "timestamp": "2026-05-27T11:13:48.660Z"
-  },
-  {
-    "id": "log-1779880415266-766e6c",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 39ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":39}",
-    "timestamp": "2026-05-27T11:13:35.266Z"
-  },
-  {
-    "id": "log-1779880415255-42fc32",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/bookings/my?userId=6 -> HTTP 304 in 14ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=6\",\"statusCode\":304,\"durationMs\":14}",
-    "timestamp": "2026-05-27T11:13:35.255Z"
-  },
-  {
-    "id": "log-1779880415209-0cc7db",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/bookings/my?userId=6 -> HTTP 304 in 48ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=6\",\"statusCode\":304,\"durationMs\":48}",
-    "timestamp": "2026-05-27T11:13:35.209Z"
-  },
-  {
-    "id": "log-1779880415200-d481df",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 38ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":38}",
-    "timestamp": "2026-05-27T11:13:35.200Z"
-  },
-  {
-    "id": "log-1779880408525-ee702c",
-    "level": "warn",
-    "category": "api",
-    "userEmail": "rajasriyayavaram@gmail.com",
-    "message": "API Response: POST /api/bookings -> HTTP 500 in 17ms",
-    "details": "{\"method\":\"POST\",\"url\":\"/api/bookings\",\"statusCode\":500,\"durationMs\":17}",
-    "timestamp": "2026-05-27T11:13:28.525Z"
-  },
-  {
-    "id": "log-1779880408518-240279",
-    "level": "error",
-    "category": "system",
-    "userEmail": null,
-    "message": "Unexpected end of JSON input",
-    "timestamp": "2026-05-27T11:13:28.518Z"
-  },
-  {
-    "id": "log-1779880400030-37679e",
-    "level": "warn",
-    "category": "api",
-    "userEmail": "rajasriyayavaram@gmail.com",
-    "message": "API Response: POST /api/bookings -> HTTP 500 in 77ms",
-    "details": "{\"method\":\"POST\",\"url\":\"/api/bookings\",\"statusCode\":500,\"durationMs\":77}",
-    "timestamp": "2026-05-27T11:13:20.031Z"
-  },
-  {
-    "id": "log-1779880400024-0e324c",
-    "level": "error",
-    "category": "system",
-    "userEmail": null,
-    "message": "Unexpected end of JSON input",
-    "timestamp": "2026-05-27T11:13:20.024Z"
-  },
-  {
-    "id": "log-1779880331665-3d181f",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/hotels/3 -> HTTP 304 in 18ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels/3\",\"statusCode\":304,\"durationMs\":18}",
-    "timestamp": "2026-05-27T11:12:11.665Z"
-  },
-  {
-    "id": "log-1779880326665-f7f0bf",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/bookings/my?userId=6 -> HTTP 304 in 22ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=6\",\"statusCode\":304,\"durationMs\":22}",
-    "timestamp": "2026-05-27T11:12:06.665Z"
-  },
-  {
-    "id": "log-1779880326614-d6ea02",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 29ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":29}",
-    "timestamp": "2026-05-27T11:12:06.615Z"
-  },
-  {
-    "id": "log-1779880326607-2e3e10",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/bookings/my?userId=6 -> HTTP 304 in 68ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=6\",\"statusCode\":304,\"durationMs\":68}",
-    "timestamp": "2026-05-27T11:12:06.607Z"
-  },
-  {
-    "id": "log-1779880326575-0479cc",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 38ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":38}",
-    "timestamp": "2026-05-27T11:12:06.575Z"
-  },
-  {
-    "id": "log-1779880326395-edb741",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/api/client.ts -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/api/client.ts\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:12:06.395Z"
-  },
-  {
-    "id": "log-1779880326386-4cf05c",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/components/HotelDetailView.tsx -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/components/HotelDetailView.tsx\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:12:06.386Z"
-  },
-  {
-    "id": "log-1779880326378-5bd176",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/api/mappers.ts -> HTTP 304 in 0ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/api/mappers.ts\",\"statusCode\":304,\"durationMs\":0}",
-    "timestamp": "2026-05-27T11:12:06.378Z"
-  },
-  {
-    "id": "log-1779880326371-3a45a4",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/components/AdminPortal.tsx -> HTTP 304 in 0ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/components/AdminPortal.tsx\",\"statusCode\":304,\"durationMs\":0}",
-    "timestamp": "2026-05-27T11:12:06.371Z"
-  },
-  {
-    "id": "log-1779880326362-b492e2",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/components/Header.tsx -> HTTP 304 in 3ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/components/Header.tsx\",\"statusCode\":304,\"durationMs\":3}",
-    "timestamp": "2026-05-27T11:12:06.362Z"
-  },
-  {
-    "id": "log-1779880326333-0945d0",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /node_modules/vite/dist/client/env.mjs -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/node_modules/vite/dist/client/env.mjs\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:12:06.333Z"
-  },
-  {
-    "id": "log-1779880326323-a241be",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/index.css -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/index.css\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:12:06.324Z"
-  },
-  {
-    "id": "log-1779880326313-c4ab2d",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/App.tsx -> HTTP 304 in 0ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/App.tsx\",\"statusCode\":304,\"durationMs\":0}",
-    "timestamp": "2026-05-27T11:12:06.314Z"
-  },
-  {
-    "id": "log-1779880326301-83950e",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /@react-refresh -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/@react-refresh\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:12:06.301Z"
-  },
-  {
-    "id": "log-1779880326294-675b48",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/main.tsx -> HTTP 304 in 0ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/main.tsx\",\"statusCode\":304,\"durationMs\":0}",
-    "timestamp": "2026-05-27T11:12:06.294Z"
-  },
-  {
-    "id": "log-1779880326285-f99978",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /@vite/client -> HTTP 304 in 2ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/@vite/client\",\"statusCode\":304,\"durationMs\":2}",
-    "timestamp": "2026-05-27T11:12:06.285Z"
-  },
-  {
-    "id": "log-1779880326240-f5c5af",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /index.html -> HTTP 304 in 32ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/index.html\",\"statusCode\":304,\"durationMs\":32}",
-    "timestamp": "2026-05-27T11:12:06.240Z"
-  },
-  {
-    "id": "log-1779880322927-118986",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/hotels/4 -> HTTP 304 in 16ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels/4\",\"statusCode\":304,\"durationMs\":16}",
-    "timestamp": "2026-05-27T11:12:02.927Z"
-  },
-  {
-    "id": "log-1779880298473-2b707a",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/bookings/my?userId=6 -> HTTP 304 in 21ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=6\",\"statusCode\":304,\"durationMs\":21}",
-    "timestamp": "2026-05-27T11:11:38.473Z"
-  },
-  {
-    "id": "log-1779880298405-812a0e",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: POST /api/auth/login -> HTTP 200 in 184ms",
-    "details": "{\"method\":\"POST\",\"url\":\"/api/auth/login\",\"statusCode\":200,\"durationMs\":184}",
-    "timestamp": "2026-05-27T11:11:38.405Z"
-  },
-  {
-    "id": "log-1779880109012-073189",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/bookings/my?userId=6 -> HTTP 304 in 19ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=6\",\"statusCode\":304,\"durationMs\":19}",
-    "timestamp": "2026-05-27T11:08:29.012Z"
-  },
-  {
-    "id": "log-1779880108940-9c5280",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: POST /api/auth/login -> HTTP 200 in 202ms",
-    "details": "{\"method\":\"POST\",\"url\":\"/api/auth/login\",\"statusCode\":200,\"durationMs\":202}",
-    "timestamp": "2026-05-27T11:08:28.941Z"
-  },
-  {
-    "id": "log-1779880083276-cc48ed",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/hotels/4 -> HTTP 304 in 34ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels/4\",\"statusCode\":304,\"durationMs\":34}",
-    "timestamp": "2026-05-27T11:08:03.276Z"
-  },
-  {
-    "id": "log-1779880004433-49f8b1",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/bookings/my?userId=6 -> HTTP 200 in 51ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=6\",\"statusCode\":200,\"durationMs\":51}",
-    "timestamp": "2026-05-27T11:06:44.434Z"
-  },
-  {
-    "id": "log-1779880004347-9b5535",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: POST /api/auth/register -> HTTP 201 in 226ms",
-    "details": "{\"method\":\"POST\",\"url\":\"/api/auth/register\",\"statusCode\":201,\"durationMs\":226}",
-    "timestamp": "2026-05-27T11:06:44.347Z"
-  },
-  {
-    "id": "log-1779879928752-711e8c",
-    "level": "warn",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: POST /api/auth/login -> HTTP 401 in 191ms",
-    "details": "{\"method\":\"POST\",\"url\":\"/api/auth/login\",\"statusCode\":401,\"durationMs\":191}",
-    "timestamp": "2026-05-27T11:05:28.752Z"
-  },
-  {
-    "id": "log-1779879921865-32fae1",
-    "level": "warn",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: POST /api/auth/login -> HTTP 401 in 194ms",
-    "details": "{\"method\":\"POST\",\"url\":\"/api/auth/login\",\"statusCode\":401,\"durationMs\":194}",
-    "timestamp": "2026-05-27T11:05:21.865Z"
-  },
-  {
-    "id": "log-1779879860775-f3c87d",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 16ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":16}",
-    "timestamp": "2026-05-27T11:04:20.775Z"
-  },
-  {
-    "id": "log-1779879860751-44dbd0",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 25ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":25}",
-    "timestamp": "2026-05-27T11:04:20.751Z"
-  },
-  {
-    "id": "log-1779879860425-2b7509",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/api/mappers.ts -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/api/mappers.ts\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:04:20.425Z"
-  },
-  {
-    "id": "log-1779879860420-7c74b6",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/api/client.ts -> HTTP 304 in 0ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/api/client.ts\",\"statusCode\":304,\"durationMs\":0}",
-    "timestamp": "2026-05-27T11:04:20.420Z"
-  },
-  {
-    "id": "log-1779879860411-143684",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/components/HotelDetailView.tsx -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/components/HotelDetailView.tsx\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:04:20.411Z"
-  },
-  {
-    "id": "log-1779879860384-77a0b3",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/components/AdminPortal.tsx -> HTTP 304 in 0ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/components/AdminPortal.tsx\",\"statusCode\":304,\"durationMs\":0}",
-    "timestamp": "2026-05-27T11:04:20.385Z"
-  },
-  {
-    "id": "log-1779879860374-5de117",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/components/Header.tsx -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/components/Header.tsx\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:04:20.374Z"
-  },
-  {
-    "id": "log-1779879860363-5a5ff4",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /node_modules/vite/dist/client/env.mjs -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/node_modules/vite/dist/client/env.mjs\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:04:20.363Z"
-  },
-  {
-    "id": "log-1779879860341-3d8f68",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/index.css -> HTTP 304 in 0ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/index.css\",\"statusCode\":304,\"durationMs\":0}",
-    "timestamp": "2026-05-27T11:04:20.341Z"
-  },
-  {
-    "id": "log-1779879860331-e689cd",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/App.tsx -> HTTP 304 in 0ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/App.tsx\",\"statusCode\":304,\"durationMs\":0}",
-    "timestamp": "2026-05-27T11:04:20.331Z"
-  },
-  {
-    "id": "log-1779879860316-9e9fb5",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /@react-refresh -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/@react-refresh\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:04:20.316Z"
-  },
-  {
-    "id": "log-1779879860299-5df001",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/main.tsx -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/main.tsx\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:04:20.299Z"
-  },
-  {
-    "id": "log-1779879860290-d0e005",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /@vite/client -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/@vite/client\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:04:20.290Z"
-  },
-  {
-    "id": "log-1779879860165-c8150d",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /index.html -> HTTP 304 in 25ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/index.html\",\"statusCode\":304,\"durationMs\":25}",
-    "timestamp": "2026-05-27T11:04:20.165Z"
-  },
-  {
-    "id": "log-1779879842831-feb91c",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 15ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":15}",
-    "timestamp": "2026-05-27T11:04:02.831Z"
-  },
-  {
-    "id": "log-1779879842810-fb60a6",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 30ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":30}",
-    "timestamp": "2026-05-27T11:04:02.810Z"
-  },
-  {
-    "id": "log-1779879842422-533f45",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/api/mappers.ts -> HTTP 304 in 0ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/api/mappers.ts\",\"statusCode\":304,\"durationMs\":0}",
-    "timestamp": "2026-05-27T11:04:02.423Z"
-  },
-  {
-    "id": "log-1779879842416-dd6594",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/api/client.ts -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/api/client.ts\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:04:02.416Z"
-  },
-  {
-    "id": "log-1779879842397-963b68",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/components/HotelDetailView.tsx -> HTTP 304 in 0ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/components/HotelDetailView.tsx\",\"statusCode\":304,\"durationMs\":0}",
-    "timestamp": "2026-05-27T11:04:02.397Z"
-  },
-  {
-    "id": "log-1779879842390-2f87da",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/components/AdminPortal.tsx -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/components/AdminPortal.tsx\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:04:02.390Z"
-  },
-  {
-    "id": "log-1779879842383-361e0e",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/components/Header.tsx -> HTTP 304 in 0ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/components/Header.tsx\",\"statusCode\":304,\"durationMs\":0}",
-    "timestamp": "2026-05-27T11:04:02.384Z"
-  },
-  {
-    "id": "log-1779879842322-ecf55f",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /node_modules/vite/dist/client/env.mjs -> HTTP 304 in 0ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/node_modules/vite/dist/client/env.mjs\",\"statusCode\":304,\"durationMs\":0}",
-    "timestamp": "2026-05-27T11:04:02.322Z"
-  },
-  {
-    "id": "log-1779879842298-52354f",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/App.tsx -> HTTP 304 in 0ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/App.tsx\",\"statusCode\":304,\"durationMs\":0}",
-    "timestamp": "2026-05-27T11:04:02.298Z"
-  },
-  {
-    "id": "log-1779879842292-d33a41",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/index.css -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/index.css\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:04:02.292Z"
-  },
-  {
-    "id": "log-1779879842278-4ce135",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /@react-refresh -> HTTP 304 in 1ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/@react-refresh\",\"statusCode\":304,\"durationMs\":1}",
-    "timestamp": "2026-05-27T11:04:02.278Z"
-  },
-  {
-    "id": "log-1779879842258-d77c02",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /src/main.tsx -> HTTP 304 in 0ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/src/main.tsx\",\"statusCode\":304,\"durationMs\":0}",
-    "timestamp": "2026-05-27T11:04:02.258Z"
-  },
-  {
-    "id": "log-1779879842250-055cd6",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /@vite/client -> HTTP 304 in 0ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/@vite/client\",\"statusCode\":304,\"durationMs\":0}",
-    "timestamp": "2026-05-27T11:04:02.250Z"
-  },
-  {
-    "id": "log-1779879842177-46fe43",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /index.html -> HTTP 304 in 76ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/index.html\",\"statusCode\":304,\"durationMs\":76}",
-    "timestamp": "2026-05-27T11:04:02.177Z"
-  },
-  {
-    "id": "log-1779879807572-ffa48e",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/bookings/my?userId=guest_visitor -> HTTP 304 in 17ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/bookings/my?userId=guest_visitor\",\"statusCode\":304,\"durationMs\":17}",
-    "timestamp": "2026-05-27T11:03:27.572Z"
-  },
-  {
-    "id": "log-1779879799133-6bc684",
-    "level": "warn",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: POST /api/auth/register -> HTTP 400 in 83ms",
-    "details": "{\"method\":\"POST\",\"url\":\"/api/auth/register\",\"statusCode\":400,\"durationMs\":83}",
-    "timestamp": "2026-05-27T11:03:19.133Z"
-  },
-  {
-    "id": "log-1779879710282-cc597d",
-    "level": "warn",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: POST /api/auth/login -> HTTP 401 in 393ms",
-    "details": "{\"method\":\"POST\",\"url\":\"/api/auth/login\",\"statusCode\":401,\"durationMs\":393}",
-    "timestamp": "2026-05-27T11:01:50.282Z"
-  },
-  {
-    "id": "log-1779879699246-9f879b",
-    "level": "warn",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: POST /api/auth/login -> HTTP 401 in 175ms",
-    "details": "{\"method\":\"POST\",\"url\":\"/api/auth/login\",\"statusCode\":401,\"durationMs\":175}",
-    "timestamp": "2026-05-27T11:01:39.246Z"
-  },
-  {
-    "id": "log-1779879692567-e1ff1b",
-    "level": "warn",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: POST /api/auth/login -> HTTP 401 in 196ms",
-    "details": "{\"method\":\"POST\",\"url\":\"/api/auth/login\",\"statusCode\":401,\"durationMs\":196}",
-    "timestamp": "2026-05-27T11:01:32.567Z"
-  },
-  {
-    "id": "log-1779879636194-10bf99",
-    "level": "warn",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: POST /api/auth/login -> HTTP 401 in 225ms",
-    "details": "{\"method\":\"POST\",\"url\":\"/api/auth/login\",\"statusCode\":401,\"durationMs\":225}",
-    "timestamp": "2026-05-27T11:00:36.194Z"
-  },
-  {
-    "id": "log-1779879596570-34a58b",
-    "level": "warn",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: POST /api/admin/hotels -> HTTP 400 in 23ms",
-    "details": "{\"method\":\"POST\",\"url\":\"/api/admin/hotels\",\"statusCode\":400,\"durationMs\":23}",
-    "timestamp": "2026-05-27T10:59:56.570Z"
-  },
-  {
-    "id": "log-1779879498891-43ee6b",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/users -> HTTP 304 in 25ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":25}",
-    "timestamp": "2026-05-27T10:58:18.891Z"
-  },
-  {
-    "id": "log-1779879498876-c1eb3d",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 92ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":92}",
-    "timestamp": "2026-05-27T10:58:18.876Z"
-  },
-  {
-    "id": "log-1779879498854-e845d9",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 24ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":24}",
-    "timestamp": "2026-05-27T10:58:18.855Z"
-  },
-  {
-    "id": "log-1779879498818-94bebe",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 32ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":32}",
-    "timestamp": "2026-05-27T10:58:18.818Z"
-  },
-  {
-    "id": "log-1779879474785-3a9580",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 102ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":102}",
-    "timestamp": "2026-05-27T10:57:54.785Z"
-  },
-  {
-    "id": "log-1779879474748-bf5dd0",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 67ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":67}",
-    "timestamp": "2026-05-27T10:57:54.748Z"
-  },
-  {
-    "id": "log-1779879474736-da3033",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/users -> HTTP 304 in 53ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":53}",
-    "timestamp": "2026-05-27T10:57:54.736Z"
-  },
-  {
-    "id": "log-1779879474720-596f32",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 39ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":39}",
-    "timestamp": "2026-05-27T10:57:54.720Z"
-  },
-  {
-    "id": "log-1779879469800-e371e3",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 74ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":74}",
-    "timestamp": "2026-05-27T10:57:49.800Z"
-  },
-  {
-    "id": "log-1779879469781-8aab71",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 53ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":53}",
-    "timestamp": "2026-05-27T10:57:49.782Z"
-  },
-  {
-    "id": "log-1779879469765-366ede",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/users -> HTTP 304 in 36ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":36}",
-    "timestamp": "2026-05-27T10:57:49.765Z"
-  },
-  {
-    "id": "log-1779879469758-bf892c",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 29ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":29}",
-    "timestamp": "2026-05-27T10:57:49.758Z"
-  },
-  {
-    "id": "log-1779879465574-cbd987",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/users -> HTTP 304 in 48ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":48}",
-    "timestamp": "2026-05-27T10:57:45.574Z"
-  },
-  {
-    "id": "log-1779879465563-b7f54a",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 71ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":71}",
-    "timestamp": "2026-05-27T10:57:45.563Z"
-  },
-  {
-    "id": "log-1779879465544-2c7062",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 36ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":36}",
-    "timestamp": "2026-05-27T10:57:45.545Z"
-  },
-  {
-    "id": "log-1779879465514-5ac2e1",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 22ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":22}",
-    "timestamp": "2026-05-27T10:57:45.517Z"
-  },
-  {
-    "id": "log-1779879447197-e91740",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/users -> HTTP 200 in 16ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":200,\"durationMs\":16}",
-    "timestamp": "2026-05-27T10:57:27.197Z"
-  },
-  {
-    "id": "log-1779879445997-d67b7a",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: PATCH /api/admin/users/5/role -> HTTP 200 in 38ms",
-    "details": "{\"method\":\"PATCH\",\"url\":\"/api/admin/users/5/role\",\"statusCode\":200,\"durationMs\":38}",
-    "timestamp": "2026-05-27T10:57:25.997Z"
-  },
-  {
-    "id": "log-1779879440825-0ff049",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/users -> HTTP 200 in 17ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":200,\"durationMs\":17}",
-    "timestamp": "2026-05-27T10:57:20.825Z"
-  },
-  {
-    "id": "log-1779879439444-e4d278",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: PATCH /api/admin/users/5/role -> HTTP 200 in 50ms",
-    "details": "{\"method\":\"PATCH\",\"url\":\"/api/admin/users/5/role\",\"statusCode\":200,\"durationMs\":50}",
-    "timestamp": "2026-05-27T10:57:19.444Z"
-  },
-  {
-    "id": "log-1779879433668-456187",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/users -> HTTP 200 in 15ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":200,\"durationMs\":15}",
-    "timestamp": "2026-05-27T10:57:13.668Z"
-  },
-  {
-    "id": "log-1779879432517-c3b893",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: PATCH /api/admin/users/5/status -> HTTP 200 in 26ms",
-    "details": "{\"method\":\"PATCH\",\"url\":\"/api/admin/users/5/status\",\"statusCode\":200,\"durationMs\":26}",
-    "timestamp": "2026-05-27T10:57:12.517Z"
-  },
-  {
-    "id": "log-1779879428141-a5f866",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/users -> HTTP 200 in 29ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":200,\"durationMs\":29}",
-    "timestamp": "2026-05-27T10:57:08.141Z"
-  },
-  {
-    "id": "log-1779879423522-2910b2",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: PATCH /api/admin/users/5/status -> HTTP 200 in 81ms",
-    "details": "{\"method\":\"PATCH\",\"url\":\"/api/admin/users/5/status\",\"statusCode\":200,\"durationMs\":81}",
-    "timestamp": "2026-05-27T10:57:03.522Z"
-  },
-  {
-    "id": "log-1779879416086-e94b18",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/users -> HTTP 304 in 16ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":16}",
-    "timestamp": "2026-05-27T10:56:56.086Z"
-  },
-  {
-    "id": "log-1779879416073-941e08",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 21ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":21}",
-    "timestamp": "2026-05-27T10:56:56.073Z"
-  },
-  {
-    "id": "log-1779879416062-c7b543",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 52ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":52}",
-    "timestamp": "2026-05-27T10:56:56.062Z"
-  },
-  {
-    "id": "log-1779879416043-060d6f",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 32ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":32}",
-    "timestamp": "2026-05-27T10:56:56.043Z"
-  },
-  {
-    "id": "log-1779879390639-02c938",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/users -> HTTP 304 in 58ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":58}",
-    "timestamp": "2026-05-27T10:56:30.639Z"
-  },
-  {
-    "id": "log-1779879390625-8539c3",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 48ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":48}",
-    "timestamp": "2026-05-27T10:56:30.625Z"
-  },
-  {
-    "id": "log-1779879390609-6f058a",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 32ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":32}",
-    "timestamp": "2026-05-27T10:56:30.609Z"
-  },
-  {
-    "id": "log-1779879390599-9cc5cc",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 22ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":22}",
-    "timestamp": "2026-05-27T10:56:30.599Z"
-  },
-  {
-    "id": "log-1779879387338-a72860",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 130ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":130}",
-    "timestamp": "2026-05-27T10:56:27.338Z"
-  },
-  {
-    "id": "log-1779879387305-2c0ee4",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 93ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":93}",
-    "timestamp": "2026-05-27T10:56:27.305Z"
-  },
-  {
-    "id": "log-1779879387258-10968e",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/users -> HTTP 304 in 43ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":43}",
-    "timestamp": "2026-05-27T10:56:27.258Z"
-  },
-  {
-    "id": "log-1779879387241-148bba",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 28ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":28}",
-    "timestamp": "2026-05-27T10:56:27.241Z"
-  },
-  {
-    "id": "log-1779879383271-aebd77",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/users -> HTTP 304 in 41ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":41}",
-    "timestamp": "2026-05-27T10:56:23.271Z"
-  },
-  {
-    "id": "log-1779879383258-fc76cb",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 57ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":57}",
-    "timestamp": "2026-05-27T10:56:23.259Z"
-  },
-  {
-    "id": "log-1779879383251-65885e",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 49ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":49}",
-    "timestamp": "2026-05-27T10:56:23.251Z"
-  },
-  {
-    "id": "log-1779879383221-5ef118",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 19ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":19}",
-    "timestamp": "2026-05-27T10:56:23.221Z"
-  },
-  {
-    "id": "log-1779879374254-433e92",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/users -> HTTP 304 in 28ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/users\",\"statusCode\":304,\"durationMs\":28}",
-    "timestamp": "2026-05-27T10:56:14.254Z"
-  },
-  {
-    "id": "log-1779879374232-21a320",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 56ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":56}",
-    "timestamp": "2026-05-27T10:56:14.232Z"
-  },
-  {
-    "id": "log-1779879374218-4c97dd",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 41ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":41}",
-    "timestamp": "2026-05-27T10:56:14.218Z"
-  },
-  {
-    "id": "log-1779879374201-c454f0",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/bookings -> HTTP 304 in 23ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/bookings\",\"statusCode\":304,\"durationMs\":23}",
-    "timestamp": "2026-05-27T10:56:14.201Z"
-  },
-  {
-    "id": "log-1779879353987-26f5fd",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/hotels -> HTTP 304 in 105ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/hotels\",\"statusCode\":304,\"durationMs\":105}",
-    "timestamp": "2026-05-27T10:55:53.988Z"
-  },
-  {
-    "id": "log-1779879353927-7e2dc8",
-    "level": "info",
-    "category": "api",
-    "userEmail": null,
-    "message": "API Response: GET /api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2 -> HTTP 304 in 44ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/hotels?city=&checkIn=2026-06-12&checkOut=2026-06-15&guests=2\",\"statusCode\":304,\"durationMs\":44}",
-    "timestamp": "2026-05-27T10:55:53.927Z"
-  },
-  {
-    "id": "log-1779879351690-63b5c8",
-    "level": "warn",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: PUT /api/admin/hotels/6 -> HTTP 400 in 27ms",
-    "details": "{\"method\":\"PUT\",\"url\":\"/api/admin/hotels/6\",\"statusCode\":400,\"durationMs\":27}",
-    "timestamp": "2026-05-27T10:55:51.690Z"
-  },
-  {
-    "id": "log-1779879351668-176e44",
-    "level": "warn",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: PUT /api/admin/hotels/5 -> HTTP 400 in 51ms",
-    "details": "{\"method\":\"PUT\",\"url\":\"/api/admin/hotels/5\",\"statusCode\":400,\"durationMs\":51}",
-    "timestamp": "2026-05-27T10:55:51.668Z"
-  },
-  {
-    "id": "log-1779879351656-d1cb81",
-    "level": "warn",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: PUT /api/admin/hotels/4 -> HTTP 400 in 43ms",
-    "details": "{\"method\":\"PUT\",\"url\":\"/api/admin/hotels/4\",\"statusCode\":400,\"durationMs\":43}",
-    "timestamp": "2026-05-27T10:55:51.656Z"
-  },
-  {
-    "id": "log-1779879351647-bc4dba",
-    "level": "warn",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: PUT /api/admin/hotels/3 -> HTTP 400 in 42ms",
-    "details": "{\"method\":\"PUT\",\"url\":\"/api/admin/hotels/3\",\"statusCode\":400,\"durationMs\":42}",
-    "timestamp": "2026-05-27T10:55:51.647Z"
-  },
-  {
-    "id": "log-1779879281144-3cf748",
-    "level": "info",
-    "category": "api",
-    "userEmail": "admin@stayvibe.com",
-    "message": "API Response: GET /api/admin/stats -> HTTP 304 in 121ms",
-    "details": "{\"method\":\"GET\",\"url\":\"/api/admin/stats\",\"statusCode\":304,\"durationMs\":121}",
-    "timestamp": "2026-05-27T10:54:41.144Z"
   }
 ]
