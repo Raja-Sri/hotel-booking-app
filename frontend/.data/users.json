@@ -8,7 +8,7 @@
     "role": "ROLE_ADMIN",
     "username": "admin",
     "phone": "+1 555-019-2834",
-    "gender": "male",
+    "gender": "female",
     "dob": "1985-06-15",
     "status": "active",
     "address": {
@@ -22,13 +22,13 @@
   {
     "id": "usr-standard-default",
     "email": "user@stayvibe.com",
-    "name": "Pujitha Pullamsetty",
+    "name": "John",
     "createdAt": "2026-05-25T15:30:50.789Z",
     "passwordHash": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
     "role": "ROLE_USER",
-    "username": "pujithap",
+    "username": "John",
     "phone": "+1 650-253-0000",
-    "gender": "female",
+    "gender": "male",
     "dob": "1998-11-22",
     "status": "active",
     "address": {
