@@ -1,0 +1,33 @@
+# Maven
+target/
+
+# Maven Wrapper downloaded files
+.mvn/wrapper/dists/
+
+# Logs
+*.log
+spring-run.out.log
+spring-run.err.log
+
+# Java
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Build output
+dist/
+build/
