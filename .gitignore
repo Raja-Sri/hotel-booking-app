@@ -2,7 +2,7 @@
 target/
 
 # Maven Wrapper downloaded files
-.mvn/wrapper/dists/
+**/.mvn/wrapper/dists/
 
 # Logs
 *.log
